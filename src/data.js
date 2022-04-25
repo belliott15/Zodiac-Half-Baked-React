@@ -1,7 +1,7 @@
 export const zodiac = [
   {
     name: 'aquarius',
-    dates: 'Jan 21 - Feb 19',
+    dates: 'Jan 20 - Feb 18',
   },
   {
     name: 'aries',
@@ -13,7 +13,7 @@ export const zodiac = [
   },
   {
     name: 'capricorn',
-    dates: 'Dec 22 - Feb 19',
+    dates: 'Dec 22 - Jan 19',
   },
   {
     name: 'gemini',
@@ -29,7 +29,7 @@ export const zodiac = [
   },
   {
     name: 'pisces',
-    dates: 'Fab 19 - Mar 20',
+    dates: 'Feb 19 - Mar 20',
   },
   {
     name: 'sagittarius',

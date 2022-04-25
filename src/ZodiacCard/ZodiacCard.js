@@ -5,7 +5,7 @@ export default function ZodiacCard({ name, dates }) {
 dates of the sign, as well as load the correct image  from the public directory */}
   return <div className='zodiac-card'>
     <img src={`./images/${name}.png`}/>
-    <h2>{ name }</h2>
-    <h4>{ dates }</h4>
+    <h2 style = {{ fontFamily: 'cursive' }}>{ name }</h2>
+    <h4 style = {{ fontFamily: 'cursive' }}>{ dates }</h4>
   </div>;
 }
