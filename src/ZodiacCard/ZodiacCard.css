@@ -19,3 +19,7 @@
   font-weight: bold;
   font-family: 'Space and Astronomy';
 }
+
+.zodiac-card h2, h4 {
+  margin: 5px;
+}
