@@ -15,8 +15,6 @@ function App() {
       <Main zodiacs= { zodiac } />
       {/* the Footer component needs a year passed in as the `year` prop */}
       <Footer year= '2022' />
-      
-      
     </div>
   );
 }
