@@ -1,6 +1,6 @@
 .zodiac-card {
   width: 200px;
-  background: linear-gradient(45deg, blue 0%, yellow 50%, steelblue 100%);
+  background: linear-gradient(45deg, blue 10%, yellow 40%, steelblue 100%);
   background-size: 500%;
   margin: 10px;
   border-radius: 5px;
@@ -28,17 +28,14 @@
 
 .zodiac-card:hover {
   cursor: pointer;
-  animation: shift 2s ease-in-out;
+  animation: shift 2s forwards;
 }
 
 @keyframes shift {
   0% {
     background-position: 0% 50% 100%;
   }
-  50% {
-    background-position: 100%;
-  }
   100% {
-    background-position: 0% 50% 100%
+    background-position: 100%;
   }
 }
