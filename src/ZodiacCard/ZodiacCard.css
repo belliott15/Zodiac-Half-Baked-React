@@ -23,12 +23,12 @@
 
 .zodiac-card h2, h4 {
   margin: 5px;
-  color: navy;
+  color: rgb(192, 189, 103);
 }
 
 .zodiac-card:hover {
   cursor: pointer;
-  animation: shift 2s forwards;
+  animation: shift 2s ease-in-out;
 }
 
 @keyframes shift {

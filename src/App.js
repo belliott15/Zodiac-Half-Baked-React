@@ -12,8 +12,7 @@ function App() {
       <Header 
         name= 'Beau Elliott' />
       {/* pass the zodiac array imported above to the Main component as a `zodiacs` prop */}
-      <Main zodiacs= { zodiac }
-        hover = {true} />
+      <Main zodiacs= { zodiac } />
       {/* the Footer component needs a year passed in as the `year` prop */}
       <Footer year= '2022' />
     </div>
